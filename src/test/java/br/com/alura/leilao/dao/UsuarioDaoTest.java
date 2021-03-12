@@ -52,7 +52,7 @@ class UsuarioDaoTest {
 		.comSenha("123")
 		.criar();
 		
-		em.persist(usuario);
+		//em.persist(usuario);
 
 		Assert.assertThrows(NoResultException.class, () -> this.dao.buscarPorUsername("beltrano"));
 

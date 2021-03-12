@@ -18,17 +18,17 @@ public class LeilaoBuilder {
 		return this;
 	}
 
-	public Object comValorInicial(String valor) {
+	public LeilaoBuilder comValorInicial(String valor) {
 		this.valorInicial = new BigDecimal(valor);
 		return this;
 	}
 	
-	public Object comData(LocalDate data) {
+	public LeilaoBuilder comData(LocalDate data) {
 		this.data = data;
 		return this;
 	}
 
-	public Object comUsuario(Usuario usuario) {
+	public LeilaoBuilder comUsuario(Usuario usuario) {
 		this.usuario = usuario;
 		return this;
 	}
